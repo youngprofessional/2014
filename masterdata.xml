@@ -1,0 +1,21 @@
+<!-- All data is in KG -->
+<masterdata>
+    <airlines>
+        <airline id="1" name="Lufthansa" code="LH" minUnderload="1000"/>
+        <airline id="2" name="Swiss" code="LX" minUnderload="500" />
+    </airlines>
+
+    <aircraftTypes>
+        <aircraftType id="380" name="Airbus 380-800" maxZFW="361000" maxLAW="386000" maxTOW="560000" maxTXW="562000" maxFuel="256000"/>
+        <aircraftType id="747" name="Boeing 747-8"   maxZFW="295289" maxLAW="312072" maxTOW="447696" maxTXW="449056" maxFuel="193280"/>
+        <aircraftType id="340" name="Airbus 340-600" maxZFW="245000" maxLAW="259000" maxTOW="368000" maxTXW="369200" maxFuel="163600"/>
+    </aircraftTypes>
+
+    <aircrafts>
+        <aircraft id="11"  ownerAirlineId="1" registration="DAIML" typeId="380" startw="276800"  />
+        <aircraft id="12"  ownerAirlineId="1" registration="DABVT" typeId="747" startw="162400"  />
+        <aircraft id="13"  ownerAirlineId="1" registration="DAIHQ" typeId="340" startw="177020"  />
+
+        <aircraft id="21"  ownerAirlineId="2" registration="HBJMN" typeId="340" startw="176445"  />
+    </aircrafts>
+</masterdata>
