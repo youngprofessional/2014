@@ -1,0 +1,6 @@
+<!-- All data is in KG -->
+<input>
+    <flight flight="LX179" dep="SIN" arr="ZRH" aircraftRegistration="HBJMN"
+        paxWeight="10000" taxiFuelWeight="1000" tripFuelWeight="100000" payloadWeight="10000"
+        galleyWeight="500" waterWeight="300"/>
+</input>
