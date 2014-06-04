@@ -5,9 +5,9 @@ Please create a complete software package which fulfils the specification below.
 
 In order to facilitate the understanding, you should include code comments, software documentation, build scripts and test cases as you feel appropriate.
 
-You can choose any mainstream language and framework / library for the implementation (eg. Java, Javascript, C/C++ ...), only requirement is that the code compiles and runs according to the specification.‎ You may add other intermediate calculations, if needed.
+You can choose any mainstream language and framework / library for the implementation (eg. Java, Javascript, C/C++ ...), only requirement is that the code compiles and runs according to the specification.‎
 
-Implementations which hard-codes the order of calculations and check won't be accepted as a valid solution.
+Implementations which hard-codes the order of calculations and checks won't be accepted as a valid solution.
 
 You will have approx 1 week to provide a solution. You might submit partial solutions in case you think it can be evaluated.
 
@@ -48,11 +48,11 @@ Check: *ZFW check*
 Assert Function: *ZFW < aircrafttype.maxZFW*  
 Type: *ERROR - Too much zero fuel weight*  
 
-Check: TXW check*  
+Check: *TXW check*  
 Assert Function: *TXW < aircrafttype.maxTXW*  
 Type: *ERROR - Too much taxi / ramp weight*  
 
-Check: TOW check*  
+Check: *TOW check*  
 Assert Function: *TOW < aircrafttype.maxTOW*  
 Type: *ERROR - Too much take-off weight*  
 
@@ -71,17 +71,20 @@ Type: *WARN - Flight is nearly full!*
 
 ### Runtime
 
-The calculator will calculate all values, while checks must be executed at the first possible time, in case of errors the calculation must halt.
+The calculator need to calculate all values, while checks must be executed at the first possible time. In case of errors the calculation must halt. You may add other intermediate calculations, if needed.
 
 **Input of the program:**
 Masterdata and Flight data file provided.
 
 **Output of the program:**
-The program must print the calculated results for each flight to the screen. After listing all available values the program lists the messages (warn / error).
+The program must print the calculated results for each flight in the input data to the screen. 
+After listing all calculated values the program should list the messages (warn / error) if any.
 ‎
-Example:
-LX179 - SIN-ZRH
-DOW 234555
-TOW 370033
-ERROR: Too much take-off weight.
+
+
+**Example:**   
+LX179 - SIN-ZRH   
+DOW 234555   
+TOW 370033   
+ERROR: Too much take-off weight.    
 (please note that the above example is not the expected output of the example input file.)
