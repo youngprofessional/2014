@@ -1,15 +1,15 @@
-Young Professional Programme - 2014
+IT Young Professional Program - 2014
 ======================================
 
 Please create a complete software package which fulfils the specification below. In case you would like to pursue a career in software testing, then you should create a comprehensive test plan for this software module.
 
 In order to facilitate the understanding, you should include code comments, software documentation, build scripts and test cases as you feel appropriate.
 
-You can choose any mainstream language and framework / library for the implementation (eg. Java, Javascript, C/C++ ...), only requirement is that the code compiles and runs according to the specification.‎
+You can choose from the following languages: Java, Javascript, C/C++, Scala. You may use any mainstream framework / library for the implementation, only requirement is that the code compiles and runs according to the specification.‎
 
 Implementations which hard-codes the order of calculations and checks won't be accepted as a valid solution.
 
-You will have approx 1 week to provide a solution. You might submit partial solutions in case you think it can be evaluated.
+You will have 1 week to provide a solution. You might submit partial solutions in case you think it can be evaluated.
 
 Specification
 -------------
