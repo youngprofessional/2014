@@ -1,4 +1,4 @@
-IT Young Professional Program - 2014
+Lufthansa Systems Hungária Kft. - Test for Software Developers
 ======================================
 
 Please create a complete software package which fulfils the specification below. In case you would like to pursue a career in software testing, then you should create a comprehensive test plan for this software module.
